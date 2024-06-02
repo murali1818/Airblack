@@ -1,0 +1,170 @@
+/* General styles for the hero section */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section {
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #000;
+}
+
+.hero-text {
+    width: 327px;
+    margin-bottom: 20px;
+    background-color: #000;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.hero-title {
+    font-family: 'FONTSPRING DEMO - Roca One Rg', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.certification {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.certification-programme {
+    background-color: #f5f5f56c;
+    color: #ffffff;
+    padding: 3px 5px;
+    margin-right: 10px;
+    border-radius: 3px;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.36px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+.certification-programme img {
+    margin-right: 5px;
+
+}
+
+.rating {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    text-align: right;
+    color: #ffd311;
+}
+
+.course-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.course-features li {
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.course-features li img {
+    margin-right: 5px;
+
+}
+
+
+.hero-form {
+    width: 327px;
+    padding: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.form-header {
+    background: #E84D84;
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+    gap: 10px;
+    border-radius: 10px 10px 0 0;
+    margin: -10px -10px 20px -10px;
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 15px;
+    font-size: 12.8px;
+    font-weight: 600;
+    color: #505050;
+
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 7px 12px 9px 12px;
+    margin-top: 5px;
+    background: #FFFFFF;
+    columns: #BFBFBF;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.whatsapp-input {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-input select {
+    width: 70px;
+    margin-right: 10px;
+}
+
+button {
+    background: linear-gradient(90.32deg, #F56563 0%, #E54988 100%);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: #a5003a;
+}
